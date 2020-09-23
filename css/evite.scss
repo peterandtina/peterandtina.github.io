@@ -53,7 +53,7 @@ div.quote {
 
   table {
     border: 0;
-    left: calc(50% - 100px);
+    left: calc(50% - 150px);
     position: sticky;
 
     tr td {
@@ -84,5 +84,20 @@ div.quote {
     max-width: 400px;
     display: inline-block;
     margin: 10px;
+  }
+}
+
+table.labelvaluealigned {
+  td {
+    padding-right: 10px;
+    padding-top: 10px;
+    vertical-align: top;
+
+    &.subrow {
+      padding-top: 1px;
+    }
+    &.leftcol {
+      text-align: right;
+    }
   }
 }
