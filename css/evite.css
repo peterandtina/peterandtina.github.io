@@ -49,7 +49,7 @@ div.quote div.citation {
 }
 .footer table {
   border: 0;
-  left: calc(50% - 150px);
+  left: calc(50% - 200px);
   position: sticky;
 }
 .footer table tr td {
